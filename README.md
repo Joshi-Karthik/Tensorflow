@@ -13,6 +13,7 @@ It is a method of serializing structured data. It is useful in developing progra
 3. Download the pre-trained default models from  https://github.com/tensorflow/models. Make sure you put all the folders under a commom folder
 
 
-4.Complitation of Protobuf library,open your Anaconda prompt ,change the directory to the place where you have kept both the folders ,then do[change directory] cd models/research and then give this command consisting of full path were your protoc.exe file is located followed by [protoc object_detection/protos/*.proto — python_out=.].
+4. Complitation of Protobuf library,open your Anaconda prompt ,change the directory to the place where you have kept both the folders ,then do[change directory] cd models/research and then give this command consisting of full path were your protoc.exe file is located followed by [protoc object_detection/protos/*.proto — python_out=.].
 For e.g. [C:/Users/ADMIN/tf_obj_det/protoc-3.4.0-win32/bin/protoc object_detection/protos/*.proto — python_out=. ],here tf_obj_det is the folder in which I have kept models and protoc file after unzipping.
 
+5. Run the real-time-object-detection.ipynb 
